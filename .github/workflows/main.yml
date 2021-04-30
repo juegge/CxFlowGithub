@@ -37,7 +37,7 @@ jobs:
       uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.1
       with:
         project: ${{ github.repository }}
-        team: "/CxServer/SP/Checkmarx/SAG"
+        team: /CxServer/SP/Checkmarx/SAG
         checkmarx_url: ${{ secrets.CHECKMARX_URL }}  # To be stored in GitHub Secrets.
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}  # To be stored in GitHub Secrets.
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}  # To be stored in GitHub Secrets.
